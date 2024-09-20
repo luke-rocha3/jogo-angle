@@ -1,0 +1,126 @@
+table {
+    width: 270px;  
+    font: 14px;
+    margin: 0 auto;
+    border-collapse: separate; 
+    border-spacing: 4px;
+    /* border-radius: 10px; */
+    /* background-color: #f0f0f0;  */
+    /* background: #DDDDDD; */
+    color: black; 
+}
+td {
+  padding: 5px; /* Adiciona espaçamento interno nas células */
+  text-align: center; /* Centraliza o texto dentro das células */
+  border: 1px solid #ccc; /* Borda visível ao redor de cada célula */
+  background-color: rgb(60, 59, 59); /* Cor de fundo para as células */
+  width: auto; 
+  border-radius: 6px;
+  color: white;
+}
+
+body {
+  background-color: rgb(19, 19, 19); /* Cor de fundo */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Garante que cubra toda a tela */
+}
+
+.container {
+    width: 150px; /* Defina uma largura para o div */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do div */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    text-align: center; /* Centraliza o conteúdo dentro do formulário */
+}
+
+button {
+    margin-top: 10px; /* Opcional: adiciona um espaçamento acima do botão */
+}
+
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #DDDDDD;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px; /* Modificado para exibir no topo */
+    font-size: 17px;
+    padding: 16px;
+  }
+
+  .toast.show {
+    visibility: visible;
+    /* animation: fadein 0.5s, fadeout 0.5s 2.5s; */
+    opacity: 1;
+  }
+
+  .toast.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  @keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+  }
+
+  @keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }
+
+  input{
+    width: 150px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(60, 59, 59); /* Cor de fundo para as células */
+    /* transition: border-color 0.3s ease; */
+    color: white;
+  }
+
+  button {
+    width: 100px;
+    background-color: #ffa500;
+    color: white;
+    border: none; 
+    padding: 8px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 10px; 
+  }
+
+.canv{
+  padding: 70px;
+  align-items: center;
+  text-align: center;
+}
+
+.positionAngulo{
+color: #ffa500;
+align-items: center;  
+text-align: center;
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
